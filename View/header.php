@@ -14,7 +14,7 @@
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <a href="../View/view_testimonial.php">All Testimonials</a>
                 <a href="../View/testimonial.php">Add New Testimonial</a>
-                <a href="#">Settings</a>
+                <a href="../View/settings.php">Settings</a>
                 <a href="../Controller/log_out.php">Logout</a>
             </div>
             <div id="main">
@@ -22,8 +22,8 @@
                 <nav>
                     <ul>
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="contact.php">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
             </div>
