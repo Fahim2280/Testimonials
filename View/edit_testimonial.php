@@ -8,6 +8,7 @@
 </head>
 
 <body>
+    <?php include 'header.php'; ?>
     <div class="container">
         <h1>Edit Testimonial</h1>
         <div>
@@ -49,6 +50,7 @@
             ?>
         </div>
     </div>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>

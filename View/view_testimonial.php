@@ -10,27 +10,32 @@
 </head>
 
 <body>
-    <div class="container">
-        <h2>Submitted Testimonials List</h2>
+    <main>
+        <?php include 'header.php'; ?>
+        <div class="container">
+            <h2>Submitted Testimonials List</h2>
 
-        <div>
-            <input type="text" id="search" placeholder="Search by Name, Date, or Testimonial" onkeyup="search()">
+            <div>
+                <input type="text" id="search" placeholder="Search by Name, Date, or Testimonial" onkeyup="search()">
+            </div>
+            <!-- Display Testimonials -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Testimonial</th>
+                        <th>Date of Submission</th>
+                        <th>Edit|Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php include '../Controller/display_testimonials.php'; ?>
+                </tbody>
+            </table>
         </div>
-        <!-- Display Testimonials -->
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Testimonial</th>
-                    <th>Date of Submission</th>
-                    <th>Edit|Delete</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php include '../Controller/display_testimonials.php'; ?>
-            </tbody>
-        </table>
-    </div>
+        <?php include 'footer.php'; ?>
+    </main>
+
 </body>
 
 </html>

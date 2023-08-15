@@ -4,11 +4,12 @@
 <head>
     <title>Testimonials</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="../Controller/script.js"></script>
+    <script src="../Controller/validateForm.js"></script>
     <link rel="stylesheet" type="text/css" href="../assets/testimonial.css">
 </head>
 
 <body>
+    <?php include 'header.php'; ?>
     <div class="container">
         <h1>Testimonials</h1>
 
@@ -32,6 +33,7 @@
             </div>
         </form>
     </div>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>
