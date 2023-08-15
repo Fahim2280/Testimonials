@@ -28,3 +28,30 @@ function validateForm() {
     event.preventDefault(); // Prevent form submission
   }
 }
+
+
+// JavaScript validation for sign-up form
+function validateSignUpForm() {
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    if (username === "" || password === "") {
+        alert("Please fill in all fields.");
+        return false;
+    }
+
+    return true;
+}
+
+// JavaScript validation for sign-in form
+function validateSignInForm() {
+    var username = document.getElementsByName("username")[0].value;
+    var password = document.getElementsByName("password")[0].value;
+
+    if (username === "" || password === "") {
+        alert("Please fill in all fields.");
+        return false;
+    }
+
+    return true;
+}

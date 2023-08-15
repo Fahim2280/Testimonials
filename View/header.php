@@ -15,6 +15,7 @@
                 <a href="../View/view_testimonial.php">All Testimonials</a>
                 <a href="../View/testimonial.php">Add New Testimonial</a>
                 <a href="#">Settings</a>
+                <a href="../Controller/log_out.php">Logout</a>
             </div>
             <div id="main">
                 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
