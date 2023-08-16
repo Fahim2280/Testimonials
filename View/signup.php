@@ -4,7 +4,7 @@
 
 <head>
     <title>Sign In</title>
-    <link rel="stylesheet" type="text/css" href="../assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="../assets/singup.css">
     <script src="../Controller/validateForm.js"></script>
 </head>
 
@@ -15,6 +15,7 @@
         <input type="password" name="password" placeholder="Password"><br>
         <input type="submit" name="signup" value="Sign Up">
     </form>
+    <p>Do have an account? <a href="signin.php">Sign Up</a></p>
 </body>
 
 </html>

@@ -3,7 +3,7 @@
 
 <head>
     <title>Sign In</title>
-    <link rel="stylesheet" type="text/css" href="../assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="../assets/singin.css">
     <script>
         function validateSignInForm() {
             var username = document.forms["signinForm"]["username"].value;
@@ -46,7 +46,7 @@
         <div id="error-message"></div>
         <input type="submit" name="signin" value="Sign In">
     </form>
-    <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    <p>Don't have an account? <a href="signup.php">Sign Up</a></p>
 
 </body>
 
