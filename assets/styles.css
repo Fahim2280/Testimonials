@@ -1,60 +1,49 @@
-/* Reset some default styles */
-body,
-h1,
-form {
-  margin: 0;
-  padding: 0;
-}
-
-/* Basic styling for the body */
 body {
+  background-color: rgb(245, 238, 238);
+  color: rgb(16, 16, 16);
   font-family: Arial, sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
 }
 
-/* Style the form container */
-form {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 300px;
-}
-
-/* Style the form title */
 h1 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-top: 50px;
 }
 
-/* Style form inputs */
+form {
+  width: 300px;
+  margin: 0 auto;
+}
+
 input[type="text"],
 input[type="password"] {
   width: 100%;
   padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ddd;
-  border-radius: 3px;
-  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
 }
 
-/* Style form submit button */
 input[type="submit"] {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
+  width: 107%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #3498db;
+  color: white;
   border: none;
-  border-radius: 3px;
+  border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 
 input[type="submit"]:hover {
-  background-color: #0056b3;
+  background-color: #2980b9;
+}
+
+p {
+  text-align: center;
+  margin: 20px;
+}
+
+#error-message {
+  color: red;
+  margin-top: 10px;
 }

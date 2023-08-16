@@ -1,3 +1,4 @@
+<?php include '../Controller/session.php'; ?>
 <!DOCTYPE html>
 <html>
 

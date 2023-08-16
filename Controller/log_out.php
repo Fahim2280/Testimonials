@@ -1,6 +1,9 @@
-<?
-if (isset($_GET['action']) && $_GET['action'] === 'logout') {
-    session_destroy();
-    header('Location: ../View/signin.php');
-    exit();
-}
+<?php
+session_start();
+
+// Destroy the session
+session_destroy();
+
+// Redirect to the sign-in page
+header('Location: ../View/signin.php');
+exit();
